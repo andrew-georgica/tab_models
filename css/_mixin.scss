@@ -1,0 +1,28 @@
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -ms-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin grayscale($filter) {
+    -webkit-filter: grayscale($filter); 
+    filter: ($filter);
+}
+
+@mixin transition($property, $duration) {
+    -webkit-transition: $property $duration;
+    -moz-transition: $property $duration;
+    -o-transition: $property $duration;
+    transition: $property $duration;
+}
+
+@mixin block_clip($clip_polygon) {
+    -webkit-clip-path: $clip_polygon;
+    clip-path: $clip_polygon;
+}
+
+
+
+
