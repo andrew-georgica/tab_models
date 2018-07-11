@@ -23,9 +23,11 @@
 .owl-carousel .owl-next {
 	position: absolute;
 	top: 50%;
-	height: 30px;
+	width: 55px;
+	height: 55px;
 	margin: auto !important;
 	margin-top: -30px !important;
+	box-shadow: 0 8px 5px 1px rgba(23, 23, 33, 0.05);
 }
 
 .owl-carousel .owl-prev {
@@ -41,6 +43,17 @@
 }
 
 
+#owl-1 span:before {
+	content: "sada";
+}
+
+#owl-1 .owl-page:first-of-type span:before {
+	content: "daaa!";
+}
+
+#owl-1 .owl-page:nth-of-type(2) span:before {
+	content: "baaa!";
+}
 
 #owl-2  {
 	margin-top: 50px;	

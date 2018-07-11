@@ -3,6 +3,12 @@ $(document).ready(function() {
 
   $("#owl-1").owlCarousel({
 
+      // navigation: true,
+      // navigationText: ["Next","prev"],
+
+      pagination : true,
+      paginationNumbers : false,
+
       autoPlay: 35000, //Set AutoPlay to 3 seconds
 
       items : 3,
@@ -33,7 +39,7 @@ $(document).ready(function() {
   $("#owl-3").owlCarousel({
 
       autoPlay: 15000, //Set AutoPlay to 3 seconds
-
+      navigation : false,
       items : 3,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,2],

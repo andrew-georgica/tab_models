@@ -1469,10 +1469,10 @@ if (typeof Object.create !== "function") {
         stopOnHover : false,
 
         navigation : true,
-        navigationText : ["<i class='fa fa-chevron-left'></i>",
-                          "<i class='fa fa-chevron-right'></i>"
+        navigationText : ["<i class='fa fa-angle-left'></i>",
+                          "<i class='fa fa-angle-right'></i>"
                          ],
-        rewindNav : true,
+        rewindNav : true,                       
         scrollPerPage : false,
 
         pagination : false,

@@ -11,20 +11,19 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #c52726;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 0;
-	font-size: 40px;
+	font-size: 45px;
 	background: transparent;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 1;
 }
 
 #owl-1.owl-theme .owl-controls .owl-buttons div {
-	color: #c52726;
+	color: #000000;
 }
 
 /* Clickable class fix problem with hover on touch devices */
@@ -44,15 +43,20 @@
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
-	width: 12px;
-	height: 12px;
-	margin: 45px 7px;
+	width: 0;
+	height: 0;
+	margin: 45px 27px;
+	
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	background: #f8dbbb;
+}
+
+.owl-theme .owl-controls .owl-page span:before {
+	color: pink;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -73,6 +77,7 @@
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 }
+
 
 /* preloading images */
 .owl-item.loading{
