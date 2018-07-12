@@ -3,12 +3,6 @@ $(document).ready(function() {
 
   $("#owl-1").owlCarousel({
 
-      // navigation: true,
-      // navigationText: ["Next","prev"],
-
-      pagination : true,
-      paginationNumbers : false,
-
       autoPlay: 35000, //Set AutoPlay to 3 seconds
 
       items : 3,
@@ -24,7 +18,10 @@ $(document).ready(function() {
 
   $("#owl-2").owlCarousel({
 
-      autoPlay: 15000, //Set AutoPlay to 3 seconds
+      pagination : true,
+      paginationNumbers : false,
+
+      autoPlay: 35000, //Set AutoPlay to 3 seconds
 
       items : 1,
       itemsDesktop : [1199,1],
@@ -38,13 +35,15 @@ $(document).ready(function() {
 
   $("#owl-3").owlCarousel({
 
-      autoPlay: 15000, //Set AutoPlay to 3 seconds
-      navigation : false,
-      items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,2],
-      itemsTablet : [768, 2],
-      itemsMobile : [479, 1]
+    pagination : true,
+    paginationNumbers : false,
+
+    autoPlay: 45000, //Set AutoPlay to 3 seconds
+
+    items : 1,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [979,1],
+    itemsTablet : [768, 1]
   });
 
 });

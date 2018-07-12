@@ -43,20 +43,26 @@
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
-	width: 0;
-	height: 0;
-	margin: 45px 27px;
-	
+	width: auto;
+	height: auto;
+	margin: 45px 50px;
+	margin-left: 0;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	background: #f8dbbb;
+	background: transparent;
 }
 
-.owl-theme .owl-controls .owl-page span:before {
-	color: pink;
+/* OWL-3 */
+
+#owl-3.owl-theme .owl-controls .owl-page span{
+	margin: 45px 50px;
+	margin-left: 0;
+}
+
+/* ---------- */
+
+#owl-3.owl-theme .owl-controls .owl-page span:before {
+	color: #000;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
