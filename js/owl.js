@@ -6,7 +6,7 @@ $(document).ready(function() {
       autoPlay: 35000, //Set AutoPlay to 3 seconds
 
       items : 3,
-      itemsDesktop : [1199,3],
+      itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,2],
       itemsTablet : [768, 2],
       itemsMobile : [479, 1]

@@ -30,6 +30,11 @@
 	width: 100%;
 	padding-top: 50px;
 }
+
+#owl-1.owl-carousel .owl-wrapper-outer{
+	padding-top: 0;
+}
+
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;

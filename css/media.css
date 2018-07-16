@@ -1,0 +1,546 @@
+
+@media screen and (max-width: 1850px) {
+
+    #menu_section ul li {
+        margin: 50px;
+    }
+
+    #menu_section ul li a {
+        font-size: 1.9em;
+    }
+
+    video {
+        width: 1100px;
+        height: 619px;
+    }
+
+    .right_block {
+        padding-top: 40px;
+    }
+
+    .line {
+        width: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 1800px) {
+
+    #menu_section ul li {
+        margin: 50px;
+    }
+
+    #menu_section ul li a {
+        font-size: 1.9em;
+    }
+
+    #services_section img {
+        margin-right: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1750px) {
+
+    h1 {
+        font-size: 5em;
+        margin-bottom: 70px;
+    }
+
+    h2 {
+        font-size: 5em;
+        margin-bottom: 70px;
+    }
+
+    .right_block {
+        padding-top: 70px;
+    }
+
+    .btn_wrapper {
+        width: 600px;
+        margin-left: 750px;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    a.page_btn {
+        margin-top: 100px;
+    }
+
+    #owl-2 .owl-pagination {
+        width: 100%;
+    }
+
+    #owl-3 .owl-pagination {
+        width: 100%;
+    }
+
+   
+}
+
+@media screen and (max-width: 1650px) {
+
+    #header_section {
+        padding-top: 160px;
+    }
+
+    video {
+        width: 1000px;
+        height: 563px;
+    }
+
+    .line {
+        bottom: 95px;
+        width: 800px;
+    }
+
+    #school_section .line {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1550px) {
+
+    p {
+        font-size: 1.5em;
+        line-height: 45px;
+    }
+
+    #menu_section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #menu_section ul li {
+        margin: 40px;
+    }
+
+    #menu_section ul li a {
+        font-size: 1.7em;
+    }
+
+    .right_block {
+        width: 450px;
+    }
+
+    a.page_btn {
+        font-size: 1.8em;
+        padding: 10px;
+        padding-bottom: 13px;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 95px;
+    }
+
+    #portfolio_btn {
+        position: absolute;
+        margin-top: 100px;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+
+    #header_section {
+        padding-top: 180px;
+    }
+
+    video {
+        width: 900px;
+        height: 507px;
+    }
+
+    .right_block {
+        padding-top: 40px;
+        padding-right: 20px;
+    }
+
+    #services_section img {
+        margin-right: 100px;
+    }
+
+    .btn_wrapper {
+        width: 600px;
+        margin-left: 750px;
+        margin-top: 65px;
+        padding: 20px;
+    }
+
+    #services_section {
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    #parallax_img3 {
+        top: 3600px;
+    }
+
+    h1 {
+        font-size: 4.7em;
+        margin-bottom: 70px;
+    }
+
+
+    h2 {
+        font-size: 4.7em;
+        margin-bottom: 70px;
+    }
+
+    h3 {
+        font-size: 3.7em;
+    }
+
+    h4 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+
+    #menu_section ul li {
+        margin: 30px;
+    }
+
+    #menu_section ul li a {
+        font-size: 1.5em;
+    }
+
+    .right_block {
+        width: 430px;
+        padding-top: 55px;
+    }
+
+    a.page_btn {
+        font-size: 1.6em;
+        padding: 10px;
+        padding-bottom: 13px;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    #portfolio_btn {
+        margin-left: -175px;
+    }
+
+    .btn_wrapper {
+        width: 520px;
+        margin-left: 650px;
+        margin-top: 80px;
+        padding: 10px;
+    }
+
+    .carousel_content_right .page_btn {
+        width: 500px;
+        margin-top: 0;
+    }
+
+    .copyright_block {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+        font-size: 0.9em;
+    }
+
+    .footer_content_block p {
+        font-size: 2em;
+    }
+
+    .copyright_block p {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+
+    h1 {
+        font-size: 4.4em;
+        margin-bottom: 70px;
+    }
+
+
+    h2 {
+        font-size: 4.4em;
+        margin-bottom: 70px;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    .line {
+        bottom: 95px;
+        width: 600px;
+    }
+
+    a.page_btn {
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+
+    #services_section .line {
+        bottom: 85px;
+    }
+
+    .right_block {
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 1250px) {
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: 70px;
+    }
+
+    h2 {
+        font-size: 4em;
+        margin-bottom: 70px;
+    }
+
+    h4 {
+        font-size: 1.8em;
+    }
+
+    .footer_content_block p {
+        font-size: 1.8em;
+    }
+
+    .btn_wrapper {
+        width: 450px;
+        margin-left: 545px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .carousel_content_right .page_btn {
+        width: 420px;
+        margin-top: 0;
+    }
+
+    .right_block {
+        width: 365px;
+    }
+
+    a.page_btn {
+        font-size: 1.3em;
+        margin-top: 50px;
+        margin-right: 0;
+        width: 300px;
+    }
+
+    #portfolio_btn {
+        margin-left: -150px;
+    }
+
+    #portfolio_btn {
+        margin-top: 75px;
+    }
+
+    #school_section {
+        margin-top: 70px;
+    }
+
+    #school_section .line {
+        width: 350px;
+    }
+
+    #school_section .page_btn {
+        margin: 0 auto;
+        margin-top: 5px;
+        width: 350px;
+    }
+
+    #owl-2 {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    #services_section {
+        margin-top: 60px;
+    }
+
+    #owl-3 {
+        margin-top: 110px;
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .logo_block {
+        display: inline-block;
+        width: 150px;
+    }
+
+    #menu_section ul li a {
+        font-size: 1.3em;
+    }
+
+    #menu_section ul li {
+        margin: 25px;
+    }
+
+    #parallax_img1 {
+        top: 800px;
+    }
+
+    #parallax_img2 {
+        top: 2500px;
+    }
+
+    #parallax_img3 {
+        top: 3200px;
+    }
+
+    h3 {
+        font-size: 3.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+
+    .right_block {
+        padding-top: 15px;
+    }
+
+    .line {
+        bottom: 65px;
+        width: 500px;
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+        font-size: 0.75em;
+    }
+
+    .owl-carousel .owl-wrapper-outer {
+        padding-top: 25px;
+    }
+
+    #owl-2 {
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .btn_wrapper {
+        width: 450px;
+        margin-left: 545px;
+        margin-top: 110px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .right_block {
+        padding-top: 5px;
+    }
+
+    a.page_btn {
+        font-size: 1.1em;
+        margin-top: 40px;
+        margin-right: 0;
+        width: 300px;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 32px;
+    }
+
+    .owl-carousel .owl-wrapper-outer {
+        padding-top: 10px;
+    }
+
+    #owl-2 .owl-page.active span {
+        border-radius: 0;
+        border-bottom: 5px solid #f2d5cc;
+        padding-bottom: 5px;
+    }
+
+    .carousel_content_right {
+        padding-top: 40px;
+    }
+
+    #owl-3 .owl-page.active span {
+        border-radius: 0;
+        border-bottom: 5px solid #f2d5cc;
+        padding-bottom: 5px;
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+        font-size: 0.7em;
+    }
+
+    #school_section .page_btn {
+        width: 300px;
+    }
+
+    #services_section img {
+        margin-right: 60px;
+    }
+
+    #services_section .line {
+        bottom: 100px;
+    }
+
+    .btn_wrapper {
+        width: 350px;
+        margin-left: 540px;
+        margin-top: 110px;
+        padding: 10px;
+    }
+
+    .carousel_content_right .page_btn {
+        width: 320px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    img {
+        display: block;
+        margin: 0 auto;
+        -webkit-filter: grayscale(0); 
+        filter: (0);
+    }
+
+    .btn_wrapper {
+        margin-top: 83px;
+    }
+
+    .school_description {
+        padding-right: 40px;
+    }
+
+    .school_description footer {
+        right: 40px;
+    }
+
+    .school_description footer p {
+       margin-bottom: 0;
+    }
+
+}
