@@ -166,6 +166,7 @@ a.page_btn {
 .header_content_wrapper {
   width: 100%;
   min-height: 100%;
+  position: relative;
 }
 
 .demo-video-wrapper {
@@ -182,6 +183,10 @@ a.page_btn {
 .right_block h1 {
   text-align: right;
   margin-bottom: 0;
+}
+
+#small_screen_header_block {
+  display: none;
 }
 
 #portfolio_section {
@@ -289,7 +294,7 @@ a.page_btn {
 }
 
 .footer_img {
-  background-image: url(../img/footer_section/bg/1.jpg);
+  background-image: url(../img/footer_section/src/1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 950px;

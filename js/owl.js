@@ -7,8 +7,8 @@ $(document).ready(function() {
 
       items : 3,
       itemsDesktop : [1199,2],
-      itemsDesktopSmall : [979,2],
-      itemsTablet : [768, 2],
+      itemsDesktopSmall : [979,1],
+      itemsTablet : [768, 1],
       itemsMobile : [479, 1]
   });
 
