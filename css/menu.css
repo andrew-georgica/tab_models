@@ -1,0 +1,84 @@
+/* menu */
+.menu_wrapper ul {
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.menu_wrapper ul.menu {
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+}
+.menu_wrapper ul.menu li {
+	position: relative;
+	background: #000;
+	margin: 10px;
+	height: 3px;
+	width: 35px;
+	transition: transform 0.3s, width 0.3s;
+}
+.menu_wrapper .active_menu li:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+  transition: transform 0.3s;
+}
+.menu_wrapper .active_menu li:nth-child(2) {
+  width: 0;
+  transition: width 0.3s;
+}
+.menu_wrapper .active_menu li:nth-child(3) {
+  bottom: 8px;
+  transform: rotate(-135deg);
+  transition: transform 0.3s;
+}
+.menu_wrapper ul.links {
+  overflow: hidden;
+  width: 0;
+  margin-left: 0px;
+  transition: width 0.4s, margin-left 0.4s;
+}
+.menu_wrapper ul.links li {
+  margin: 5px;
+  text-align: left;
+}
+.menu_wrapper ul.links li a {
+  color: #000000;
+  font-family: 'Cormorant', serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.5s;
+  text-transform: uppercase;
+  transition: color 0.5s, margin-left 0.5s;
+}
+.menu_wrapper ul.links li a:hover {
+  color: #131e2f;
+  margin-left: 20px;
+  transition: color 0.5s, margin-left 0.5s;
+}
+
+.menu_wrapper ul.links li.languige {
+  display: none;
+}
+
+.menu_wrapper ul.links li.languige a {
+  float: left;
+  margin-right: 15px;
+}
+
+.menu_wrapper ul.links li.languige a:hover {
+  margin-left: 0;
+  transition: none;
+}
+
+.menu_wrapper .active_links {
+  width: 220px !important;
+  margin-left: 35px !important;
+  transition: width 0.4s, margin-left 0.4s;
+}
+
+/* end menu */

@@ -133,6 +133,16 @@ a.page_btn {
     z-index: 10;
 }
 
+#small_menu {
+    display: none;
+    background-color: $block_bg;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 10px;
+}
+
 .logo_block {
     display: inline-block;
 }
@@ -356,6 +366,12 @@ a.page_btn {
         color: $block_bg;
         font-size: 2.2em;
     }
+
+    a {
+        color: $block_bg;
+        font-size: 2.2em;
+    }
+
 }
 
 .footer_content_article {
