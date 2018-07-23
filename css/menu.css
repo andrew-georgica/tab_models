@@ -61,10 +61,6 @@
   transition: color 0.5s, margin-left 0.5s;
 }
 
-.menu_wrapper ul.links li.languige {
-  display: none;
-}
-
 .menu_wrapper ul.links li.languige a {
   float: left;
   margin-right: 15px;

@@ -260,6 +260,15 @@
         font-size: 2em;
     }
 
+    a.icon_link img {
+        display: inline;
+        width: 40px;
+    }
+
+    a#facebook_icon img {
+        width: 25px;
+    }
+
 
     .copyright_block p {
         font-size: 1.5em;
@@ -1307,6 +1316,14 @@
 
 @media screen and (max-width: 340px) {
 
+    .menu_wrapper ul.links li a {
+        font-size: 1em;
+    }
+
+    .menu_wrapper .active_links {
+        width: 145px !important;
+    }
+
     p {
         font-size: .9em;
         line-height: 24px;
@@ -1362,6 +1379,15 @@
     .icons_block {
         text-align: center;
         margin-top: 80px;
+    }
+
+    a.icon_link img {
+        display: inline;
+        width: 35px;
+    }
+
+    a#facebook_icon img {
+        width: 22px;
     }
 
 }
